@@ -1,0 +1,25 @@
+{
+  "name": "layout-designer-project-lvl1",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saintsloth/layout-designer-project-lvl1.git"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "Duck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saintsloth/layout-designer-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/saintsloth/layout-designer-project-lvl1#readme",
+  "devDependencies": {
+    "pug": "^3.0.2"
+  }
+}

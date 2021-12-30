@@ -1,0 +1,153 @@
+    /*Font-face*/
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4taVIGxA.woff2');
+}
+@font-face {
+    font-family: 'Neucha';
+    src: url('https://fonts.gstatic.com/s/neucha/v12/q5uGsou0JOdh94bfuQltOxU.woff2');
+}
+    /*Position*/
+.bound-column {
+    position: relative;
+    max-width: 1440px;
+    z-index: -2000;
+}
+.section {
+    max-width: 1110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.title-position-first-page {
+    height: 445px;
+    top: 55px;
+    right: -270px;
+}
+.img-header {
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: 0;
+    margin-right: -103.81px;
+    z-index: -100;
+}
+    /*Box-model*/
+.sections-to-center {;
+    justify-content: center;
+}
+.flex-box {
+    display: flex;
+    align-items: flex-start;
+
+}
+.column-gap-30 {
+    column-gap: 30px;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-wrap-no {
+    flex-wrap: nowrap;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-align-items-start {
+    align-items: start;
+}
+.button {
+    margin-top: 40px;
+    padding: 12px 24px;
+    font-weight: bold;
+}
+.flex-item-p {
+    max-width: 540px;
+}
+.margin-no {
+    margin: 0 0 0 0;
+}
+    /*Typography*/
+/*Fonts styles*/
+:not(h1, h2, h3, h4, h5) {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6em;
+    font-size: 16px;
+    color: #2A2626;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Neucha', cursive;
+    line-height: 1.2em;
+    font-weight: normal;
+}
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 34px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+h1 * {
+    font-family: 'Neucha', cursive;
+    line-height: 1.2em;
+    font-weight: normal;
+    font-size: 72px;
+    color: #2a2626;
+}
+    /*Decor*/
+/*Background*/
+.bound-column::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background.png');
+    background-color: #d7ccc0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: -1000;
+}
+/*Colors*/
+.color-white {
+    background: #fff;
+}
+.color-white-transparent {
+    background: #d7ccc0;
+}
+.color-light {
+    background: #f5f4f0;
+}
+.color-main {
+    background: #fe8a02;
+}
+.font-color-main {
+    color: #fe8a02;
+}
+.color-dark-main {
+    background: #42413c;
+}
+.color-dark {
+    background: #2a2626;
+}
+.color-dark-transparent {
+    background: #908d8b;
+}
+.color-brown {
+    background: #b09a81;
+}
+.color-blue {
+    background: #1085c5;
+}
+.text-color-white {
+    color: #f5f4f0;
+}
+    /*Other styles*/
+.text-item-test {
+    height: 186px;
+}
